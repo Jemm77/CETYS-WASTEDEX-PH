@@ -1,1 +1,22 @@
-* .env
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Archivos locales de tu máquina
+local.properties
+
+# Android Studio / IntelliJ
+.idea/
+*.iml
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Xcode (por si el repo sigue teniendo la versión iOS)
+xcuserdata/
+*.xcuserstate
